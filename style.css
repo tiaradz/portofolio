@@ -1,0 +1,212 @@
+
+.header{
+    margin: 30px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+}
+.project{
+    margin: 0 50px;
+    
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    list-style-type: none;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.tombol button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 130px;
+    height: 30px;
+    font-weight: bold;
+}
+.hero {
+    text-align: center;
+    padding: 150px 400px;
+    margin: 0 50px;
+    
+
+}
+.hero h1 {
+    font-size: 52px;
+    margin: 0;
+
+}
+.hero p {
+    padding: 0 120px;
+
+}
+.card{
+    background-color: white;
+    border: 2px solid black;
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.image{
+    background-color: blueviolet;
+    height: 150px;
+    background-image: url('./assets/gambar1.jpeg');
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.judul{
+    background-color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100px;
+    height: fit-content;
+    border-radius: 10px;
+}
+.card-text{
+    justify-content: space-between;
+}
+.judul{
+    background-color: white;
+    text-align: center;
+}
+.card-text{
+    display: flex;
+    
+}
+
+.image2{
+    background-color: blueviolet;
+    height: 150px;
+    background-image: url('./assets/gambar3.jpeg');
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.image3{
+    background-color: blueviolet;
+    height: 150px;
+    background-image: url('./assets/gambar4.jpeg');
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.image4{
+    background-color: blueviolet;
+    height: 150px;
+    background-image: url('./assets/gambar2.jpeg');
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.pembukus{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+}
+.semua{
+    text-align: center;
+    margin-top: 50px;
+}
+.about{
+    
+    width: 100%;
+
+}
+.orang{
+    border-radius: 20px;
+    background-color: brown;
+    width: 30%;
+    height: 150px;
+    background-repeat: no-repeat;
+
+}
+
+.orang img{
+    border-radius: 12px;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+}
+.deskripsi{
+    width: 500px;
+}
+.wrapping{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height:200px;
+}
+.text{
+    background-color: rgb(225, 225, 225);
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+}
+ul{
+    list-style: none;
+    
+    
+}
+li{
+    margin-bottom: 10px;
+
+}
+li a{
+    text-decoration: none;
+    
+}
+
+.footer{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social{
+    width: 20%;
+}
+.social p{
+    
+   text-indent: 40px;
+}
+.email{
+    width: 20%;
+}
+.email p{
+    
+    text-indent: 40px;
+    
+
+}
+.FAQ{
+    width: 20%;
+
+}
